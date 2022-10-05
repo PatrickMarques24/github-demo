@@ -5,7 +5,7 @@ Soustraction
 */
 
 function subtract(a, b) {
-  return a-b;
+  return -b + a;
 }
 
 calculate('subtraction', subtract);
